@@ -1,14 +1,17 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 int main() {
-	float L = 0;
-	float pi = 3.14;
-	float R = 0;
+	float v = 0;
+	float t = 0;
+	float a = 0;
 
-	cout << "L:";
-	cin >> L;
+	cout << "v:";
+	cin >> v;
+	cout << "t:";
+	cin >> t;
+	cout << "a:";
+	cin >> a;
 
-	R = L / (2 * pi);
+	cout << "S=" << v * t + (a * (t * t)) / 2 << " m";
 
-	cout << "S=" << 2 * pi * (R * R);
 }
